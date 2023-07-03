@@ -165,6 +165,32 @@ h1 {
     z-index: -1;
 }
 
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeElement {
+    width: 25%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.homeElement img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+}
+
+.homeElement p {
+    text-shadow: 1px 1px #3b4043;
+}
+
 footer.footer {
     background-image: url("/media/border.jpg");
     background-size: cover;
